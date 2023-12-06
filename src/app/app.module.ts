@@ -11,7 +11,8 @@ import { ComponentePaiComponent } from './components/controle-acesso/componente-
 import { ComponenteFilhoComponent } from './components/controle-acesso/componente-pai/componente-pai/componente-filho/componente-filho.component';
 import { ContadorComponent } from './components/contador/contador.component';
 import { ListItemsComponent } from './components/contador/components/lista-itens/lista-itens.component';
-import { FormCadastroComponent } from './components/contador/components/lista-itens/components/form-cadastro/form-cadastro.component'; // Certifique-se de incluir o componente correto aqui
+import { FormCadastroComponent } from './components/contador/components/lista-itens/components/form-cadastro/form-cadastro.component';
+import { TelaLoginComponent } from './tela-login/tela-login.component'; // Certifique-se de incluir o componente correto aqui
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { FormCadastroComponent } from './components/contador/components/lista-it
     ContadorComponent,
     ListItemsComponent,
     FormCadastroComponent,
+    TelaLoginComponent,
   ],
   imports: [
     FormsModule,
